@@ -15,8 +15,6 @@ export function SearchInput({ characters, search, setSearch }) {
 		}
 	}, [open, characters]);
 
-	console.log(options, "options");
-
 	return (
 		<Autocomplete
 			id="search"
