@@ -32,6 +32,12 @@ export function SearchInput({ characters, search, setSearch }) {
 			options={options}
 			loading={loading}
 			getOptionLabel={(option) => option.name}
+			renderOption={(props, option) => (
+				<li {...props} key={option.id}>
+					{option.name}
+				</li>
+			)}
+			isOptionEqualToValue={(option, value) => option.value === value.value}
 			renderInput={(params) => (
 				<TextField {...params} label="Search" variant="outlined" />
 			)}
