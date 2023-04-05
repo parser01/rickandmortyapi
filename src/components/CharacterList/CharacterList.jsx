@@ -11,7 +11,6 @@ export function CharacterList() {
 	const [error, setError] = useState(null);
 	const [pages, setPages] = useState(1);
 	const [page, setPage] = useState(1);
-
 	const [search, setSearch] = useState("");
 
 	useEffect(() => {
