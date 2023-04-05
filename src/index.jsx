@@ -57,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
       height: 100%;
       font-size: 100%;
       line-height: 1;
-      font-size: 14px;
+      font-size: 16px;
       text-size-adjust: 100%;
    }
 
@@ -88,7 +88,6 @@ const GlobalStyle = createGlobalStyle`
    body {
       color: #fff;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
    }
 
    #root {
